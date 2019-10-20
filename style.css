@@ -97,7 +97,7 @@ text-shadow:
 
 
 #background {  
-    height: 210%;
+    height: 230%;
     background-color: rgb(225	239	243);
 
     background-image: url("https://images.unsplash.com/photo-1494200483035-db7bc6aa5739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
@@ -162,16 +162,17 @@ background-attachment:fixed;
    }
 
    .carousel-control-prev-icon{
-     padding:25px;
-     background-color:inherit;
-    image-rendering: black;
-    
-  border-radius:50%;}
+     background-image:none;
+     color:#F2933F;
+    font-size:3em;
+}
 
-  .carousel-control-next-icon{background-color:black;
-    padding:25px;
-    background-color:inherit;
-    border-radius:50%;}
+  .carousel-control-next-icon{
+    color:#F2933F;
+    background-image:none;
+    font-size:3em;
+   
+    }
 
   embed{
     position:relative;
@@ -186,7 +187,7 @@ background-attachment:fixed;
     color:black;
   }
 
-  #kevin-buchik{color:maroon;}
+  #kevin-buchik{color:#F2933F;}
 
   #resume-header{text-align:center;}
 
@@ -206,13 +207,21 @@ background-attachment:fixed;
 
 #contact{
   position:relative;
-  font-size:.8em;
+  font-size:.9em;
   left:100px;
   line-height:5px;
   padding:1px;
+  text-align:center;
 }
 
 #contact-title{
+  text-emphasis:strong;
   position:relative;
   text-decoration:underline;
 }
+
+.contact-link {
+color:#F2933F;
+}
+
+a{color:#F2933F;}
