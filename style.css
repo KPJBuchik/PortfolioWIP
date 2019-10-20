@@ -42,7 +42,7 @@ body,html{
     margin-left: 20px;
 
   }
-  
+  .nav-linkp{    margin-right: 20px;}
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
   }
@@ -84,7 +84,10 @@ text-shadow:
 
 
 }
+
+.jumbotron{background-color: rgb(225	239	243)}
 .modal {
+
     opacity:.1;}
 
 #circle{  height: 100px;
@@ -99,6 +102,7 @@ text-shadow:
 #background {  
     height: 230%;
     background-color: rgb(225	239	243);
+    position:relative;
 
     background-image: url("https://images.unsplash.com/photo-1494200483035-db7bc6aa5739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
     background-attachment: fixed;
@@ -178,7 +182,8 @@ background-attachment:fixed;
     position:relative;
     left: 15%;
   }
-  .modal-content{background-color:#e9ecef}
+  .modal-content{ background-color: rgb(225	239	243);
+  }
 
   #home-link{ text-decoration: none !important;
     color: inherit;  }
@@ -221,7 +226,15 @@ background-attachment:fixed;
 }
 
 .contact-link {
-color:#F2933F;
+color:#EE7810
 }
 
-a{color:#F2933F;}
+a{color:#EE7810;}
+
+a:hover{color:#F5AE6F;}
+
+#carousel-background{background-color:#39B5C6;
+  padding-bottom:20px;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;}
