@@ -41,7 +41,6 @@ body,html{
     border-radius: 25px;
     margin-left: 20px;
 
-
   }
   
   .navbar-default .navbar-nav > li > a:hover {
@@ -186,3 +185,34 @@ background-attachment:fixed;
   .third-slide {
     color:black;
   }
+
+  #kevin-buchik{color:maroon;}
+
+  #resume-header{text-align:center;}
+
+  #r{font-size:2em;
+    font-family:'rye', cursive; ;
+    text-shadow:
+    
+                1px 1px  #F5AE6F,
+                2px 2px  #F5AE6F,
+                3px 3px  #F5AE6F,
+                4px 4px  #F5AE6F,
+                5px 5px  #F5AE6F,
+                6px 6px  #F5AE6F;
+    
+    }
+
+
+#contact{
+  position:relative;
+  font-size:.8em;
+  left:100px;
+  line-height:5px;
+  padding:1px;
+}
+
+#contact-title{
+  position:relative;
+  text-decoration:underline;
+}
