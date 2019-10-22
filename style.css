@@ -3,8 +3,7 @@ body,html{
     font-family: 'Poly', serif;
     height: 100%;
     color:#dff3f1;
-    background-color:#2d2113
-
+    background-color:#2d2113;
   }
   
   main {
@@ -33,8 +32,10 @@ body,html{
    text-shadow: 1px 1px  #6C1404,
     2px 2px  #EC4209,
     3px 3px  #6C1404,
-    4px 4px  #EC4209,
-    5px 5px  #6C1404;
+    4px 4px  #EC4209;
+  
+   
+
     font-size: 3em;
     font-weight: bold;
     margin-right:50px;
@@ -46,14 +47,17 @@ body,html{
     margin-left: 20px;
 
   }
-  .nav-linkr{color:#60C3D2 !important}
+  .nav-linkr{color:#60C3D2 !important;
+    font-size:1em;}
 
   .nav-linkp{    margin-right: 50px;
     color:#60C3D2 !important;
-                
+    font-size:1em; 
+    font-family:Arial, Helvetica, sans-serif
                 }
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
+    font-family:Arial, Helvetica, sans-serif
   }
   
   .navbar {
@@ -93,7 +97,9 @@ text-shadow:
             3px 3px  #6C1404,
             4px 4px  #EC4209,
             5px 5px  #6C1404,
-            6px 6px  #EC4209;
+            6px 6px  #EC4209,
+            7px 7px  #6C1404,
+            8px 8px  #6C1404;
 
 
 }
@@ -283,3 +289,11 @@ border-radius:15px 50px 30px
 .bg-light{
   background-color:#2d2113
   !important}
+
+  .skills{font-size:20px;}
+
+
+  .skills{
+    list-style:circle;
+    color:#60C3D2;
+  }
