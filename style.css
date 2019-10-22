@@ -3,7 +3,7 @@ body,html{
     font-family: 'Poly', serif;
     height: 100%;
     color:#dff3f1;
-    background-color:#4aaaa5;
+    background-color:#2d2113
 
   }
   
@@ -30,11 +30,11 @@ body,html{
   #logo {
     position:relative;
     top:-5px;
-   text-shadow: 1px 1px  #EC4209,
+   text-shadow: 1px 1px  #6C1404,
     2px 2px  #EC4209,
-    3px 3px  #EC4209,
+    3px 3px  #6C1404,
     4px 4px  #EC4209,
-    5px 5px  #EC4209;
+    5px 5px  #6C1404;
     font-size: 3em;
     font-weight: bold;
     margin-right:50px;
@@ -88,11 +88,11 @@ letter-spacing:2px;}
 font-family:'rye', cursive; ;
 text-shadow:
 
-            1px 1px  #EC4209,
+            1px 1px  #6C1404,
             2px 2px  #EC4209,
-            3px 3px  #EC4209,
+            3px 3px  #6C1404,
             4px 4px  #EC4209,
-            5px 5px  #EC4209,
+            5px 5px  #6C1404,
             6px 6px  #EC4209;
 
 
@@ -163,12 +163,11 @@ background-attachment:fixed;
     font-family:'rye', cursive; ;
     text-shadow:
     
-                1px 1px  #60C3D2,
-                2px 2px  #60C3D2,
-                3px 3px  #60C3D2,
-                4px 4px  #60C3D2,
-                5px 5px  #60C3D2,
-                6px 6px  #60C3D2;
+    1px 1px  #6C1404,
+    2px 2px  #EC4209,
+    3px 3px  #6C1404,
+    4px 4px  #EC4209,
+    5px 5px  #6C1404;;
                 opacity:.8;
   }
   .d-block {
