@@ -2,6 +2,8 @@
 body,html{
     font-family: 'Poly', serif;
     height: 100%;
+    color:#dff3f1;
+    background-color:rgb(25	19	13		)
 
   }
   
@@ -10,27 +12,29 @@ body,html{
   }
   
   .block {
-    background-color: #fff;
+    
   
     padding: 30px;
     margin-bottom: 30px;
   }
   
   .block-header {
+    
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
+
   }
   
 
   #logo {
     position:relative;
     top:-5px;
-   text-shadow: 1px 1px  #F5AE6F,
-    2px 2px  #F5AE6F,
-    3px 3px  #F5AE6F,
-    4px 4px  #F5AE6F,
-    5px 5px  #F5AE6F;
+   text-shadow: 1px 1px  #7f0305,
+    2px 2px  #7f0305,
+    3px 3px  #7f0305,
+    4px 4px  #7f0305,
+    5px 5px  #7f0305;
     font-size: 3em;
     font-weight: bold;
     margin-right:50px;
@@ -42,52 +46,60 @@ body,html{
     margin-left: 20px;
 
   }
-  .nav-linkp{    margin-right: 20px;}
+  .nav-linkr{color:#7f0305 !important}
+
+  .nav-linkp{    margin-right: 50px;
+    color:#7f0305 !important;
+                
+                }
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
   }
   
   .navbar {
+
     position:sticky;
-    background-image: url("https://images.unsplash.com/photo-1494200483035-db7bc6aa5739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
     border: none;
     opacity:.9;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
   }
 
-  .container-text{        margin-top: 1%;
-    text-shadow:1px 1px;
+  .container-text{   
+      margin-top: 1%;
     opacity:.8;
     margin-left:10%;
     padding: 0 0 5%;
-    font-size:1.6em;}
+    font-size:1.6em;
+    position: relative;
+    top: -20px;
+    right: 80px;  
+  }
 
 .container {
     padding:2%;
     
 }
-h1{text-shadow:1px 2px;
+h1{
 letter-spacing:2px;}
 
 #w { font-size:4em;
 font-family:'rye', cursive; ;
 text-shadow:
 
-            1px 1px  #F5AE6F,
-            2px 2px  #F5AE6F,
-            3px 3px  #F5AE6F,
-            4px 4px  #F5AE6F,
-            5px 5px  #F5AE6F,
-            6px 6px  #F5AE6F;
+            1px 1px  #7f0305,
+            2px 2px  #7f0305,
+            3px 3px  #7f0305,
+            4px 4px  #7f0305,
+            5px 5px  #7f0305,
+            6px 6px  #7f0305;
 
 
 }
 
 .jumbotron{background-color: rgb(225	239	243)}
 .modal {
-
+    
     opacity:.1;}
 
 #circle{  height: 100px;
@@ -101,14 +113,14 @@ text-shadow:
 
 #background {  
     height: 230%;
-    background-color: rgb(225	239	243);
-    position:relative;
-
-    background-image: url("https://images.unsplash.com/photo-1494200483035-db7bc6aa5739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("assets/elephant.jpg");
+ 
+    /* background-image: url("https://images.unsplash.com/photo-1494200483035-db7bc6aa5739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"); */
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    background-repeat:no-repeat;
+    background-size:98%;
     
 
   }
@@ -119,7 +131,7 @@ background-attachment:fixed;
   }
 
 
-  #fade-block{background-color:#39B5C6;
+  #fade-block{background-color:black;
     margin-top:7%;
     height:10%;
     opacity:.7;}
@@ -150,12 +162,12 @@ background-attachment:fixed;
     font-family:'rye', cursive; ;
     text-shadow:
     
-                1px 1px  #F5AE6F,
-                2px 2px  #F5AE6F,
-                3px 3px  #F5AE6F,
-                4px 4px  #F5AE6F,
-                5px 5px  #F5AE6F,
-                6px 6px  #F5AE6F;
+                1px 1px  #7f0305,
+                2px 2px  #7f0305,
+                3px 3px  #7f0305,
+                4px 4px  #7f0305,
+                5px 5px  #7f0305,
+                6px 6px  #7f0305;
                 opacity:.8;
   }
   .d-block {
@@ -167,22 +179,24 @@ background-attachment:fixed;
 
    .carousel-control-prev-icon{
      background-image:none;
-     color:#F2933F;
+     color:#7f0305;
     font-size:3em;
 }
 
   .carousel-control-next-icon{
-    color:#F2933F;
+    color:#7f0305;
     background-image:none;
     font-size:3em;
    
     }
-
+#resume-holder{
+  height:200px;
+}
   embed{
     position:relative;
-    left: 15%;
+    left: 25%;
   }
-  .modal-content{ background-color: rgb(225	239	243);
+  .modal-content{ height:0px;
   }
 
   #home-link{ text-decoration: none !important;
@@ -192,7 +206,7 @@ background-attachment:fixed;
     color:black;
   }
 
-  #kevin-buchik{color:#F2933F;}
+  #kevin-buchik{color:#7f0305;}
 
   #resume-header{text-align:center;}
 
@@ -200,12 +214,12 @@ background-attachment:fixed;
     font-family:'rye', cursive; ;
     text-shadow:
     
-                1px 1px  #F5AE6F,
-                2px 2px  #F5AE6F,
-                3px 3px  #F5AE6F,
-                4px 4px  #F5AE6F,
-                5px 5px  #F5AE6F,
-                6px 6px  #F5AE6F;
+                1px 1px  #7f0305,
+                2px 2px  #7f0305,
+                3px 3px  #7f0305,
+                4px 4px  #7f0305,
+                5px 5px  #7f0305,
+                6px 6px  #7f0305;
     
     }
 
@@ -226,22 +240,41 @@ background-attachment:fixed;
 }
 
 .contact-link {
-color:#EE7810
+color:#7f0305
 }
 
-a{color:#EE7810;}
+a{color:#7f0305;}
 
-a:hover{color:#F5AE6F;}
+a:hover{color:#7f0305;}
 
-#carousel-background{background-color:#39B5C6;
+#carousel-background{background-color:#7f0305;
   padding-bottom:20px;
   padding-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;}
-
+  margin-left: 100px;
+  margin-right: 100px;
+  opacity:.9;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  
+}
 /* 
   #about-background{background-color:#39B5C6;
   position:relative;
   padding-left:20px;
   padding-right:20px;
 right:20px;} */
+
+#about-me {
+  
+  position: relative;
+  top: -25px;
+}
+
+.carousel-caption{
+background-color:white;
+opacity:.9;
+color:black;
+border-radius:15px 50px 30px
+}
+
+.bg-light{
+  background-color:rgb(35	27	19	) !important}
