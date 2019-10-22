@@ -34,8 +34,6 @@ body,html{
     3px 3px  #6C1404,
     4px 4px  #EC4209;
   
-   
-
     font-size: 3em;
     font-weight: bold;
     margin-right:50px;
@@ -48,16 +46,17 @@ body,html{
 
   }
   .nav-linkr{color:#60C3D2 !important;
+    border-right:solid;
+    border-width:1px;
+    border-color:white;
     font-size:1em;}
 
   .nav-linkp{    margin-right: 50px;
     color:#60C3D2 !important;
     font-size:1em; 
-    font-family:Arial, Helvetica, sans-serif
                 }
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
-    font-family:Arial, Helvetica, sans-serif
   }
   
   .navbar {
@@ -72,7 +71,7 @@ body,html{
 
   .container-text{   
       margin-top: 1%;
-    opacity:.8;
+    opacity:1;
     margin-left:10%;
     padding: 0 0 5%;
     font-size:1.6em;
@@ -180,7 +179,7 @@ background-attachment:fixed;
    padding-left:10%;
     padding-right:10%;
     height:520px;
-    box-shadow: 10px 15px rgba(0,0,0,0.2); 
+    box-shadow: 5px 10px 18px #888888;
 
     
    }
