@@ -302,6 +302,23 @@ border-radius:15px 50px 30px
   color:white;}
   .fa-envelope{font-size:2em;
     color:white;}
+  
+  .fab:active{
+  
+
+    transform: translateY(4px);
+  
+  }
+  .fa-envelope:active{
+    
+    transform: translateY(4px)
+  }
+  .fa-envelope:hover{
+    color:#60C3D2;
+  }
+  .fab:hover{
+    color:#60C3D2;
+  }
 
     .carousel-inner{margin-top: -50px;}
 
