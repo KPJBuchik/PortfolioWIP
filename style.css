@@ -4,6 +4,7 @@ body,html{
     height: 100%;
     color:#dff3f1;
     background-color:#2d2113;
+    overflow-y: scroll
   }
   
   main {
@@ -11,8 +12,6 @@ body,html{
   }
   
   .block {
-    
-  
     padding: 30px;
     margin-bottom: 30px;
   }
@@ -45,14 +44,14 @@ body,html{
     margin-left: 20px;
 
   }
-  .nav-linkr{color:#60C3D2 !important;
+  .nav-linkr{color:#dff3f1 !important;
     border-right:solid;
     border-width:1px;
     border-color:white;
     font-size:1em;}
 
   .nav-linkp{    margin-right: 50px;
-    color:#60C3D2 !important;
+    color:#dff3f1 !important;
     font-size:1em; 
                 }
   .navbar-default .navbar-nav > li > a:hover {
@@ -161,6 +160,7 @@ background-attachment:fixed;
 }
 #portfolio-h1{
   margin-left: 60%;
+  color:#dff3f1;
   font-size:4em;}
 
 
@@ -173,7 +173,7 @@ background-attachment:fixed;
     3px 3px  #6C1404,
     4px 4px  #EC4209,
     5px 5px  #6C1404;;
-                opacity:.8;
+                ;
   }
   .d-block {
    padding-left:10%;
@@ -240,6 +240,7 @@ background-attachment:fixed;
   line-height:5px;
   padding:1px;
   text-align:center;
+  display:flex;
 }
 
 #contact-title{
@@ -296,3 +297,16 @@ border-radius:15px 50px 30px
     list-style:circle;
     color:#60C3D2;
   }
+
+  .fab {font-size:2em;
+  color:white;}
+  .fa-envelope{font-size:2em;
+    color:white;}
+
+    .carousel-inner{margin-top: -50px;}
+
+  /* .contact-link-email{top: 50px;
+    right: 155px;
+    position: relative;
+    font-size:1em;
+  } */ 
