@@ -4,7 +4,7 @@ body,html{
     height: 100%;
     color:#dff3f1;
     background-color:#2d2113;
-    overflow-y: scroll
+    overflow-y: hidden
   }
   
   main {
@@ -44,6 +44,9 @@ body,html{
     margin-left: 20px;
 
   }
+  .nav-linkr:hover{color:#60C3D2 !important;}
+  .nav-linkp:hover{color:#60C3D2 !important;}
+
   .nav-linkr{color:#dff3f1 !important;
     border-right:solid;
     border-width:1px;
@@ -188,7 +191,6 @@ background-attachment:fixed;
      background-image:none;
      color:#EC4209;
     font-size:3em;
-    text-shadow:0px 3px 15px rgba(0,0,0,0.2);
 }
 
   .carousel-control-next-icon{
@@ -283,7 +285,7 @@ right:20px;} */
 background-color:white;
 opacity:.9;
 color:black;
-border-radius:15px 50px 30px
+border-radius:15px 50px 15px;
 }
 
 .bg-light{
@@ -327,3 +329,6 @@ border-radius:15px 50px 30px
     position: relative;
     font-size:1em;
   } */ 
+
+
+  #home{display:hidden;}
