@@ -516,11 +516,20 @@ word-spacing: 60px;}
 
 
     .container-text{
-      font-size:.5em;
+      
+      margin-left:50px;
+      font-size:1em;
       text-align:center;}
 
       .d-block{
-        height:250px;
+        margin:0 auto;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-style:solid;
+        overflow: hidden;
       }
+
+      .jumbo-about{width:520px;}
 
   }
