@@ -28,10 +28,15 @@ body,html{
   
 
   .circle:hover{background-color:#38B4C7}
-  .nav-linkr:hover{color:#60C3D2 !important;}
+  .nav-linkr:hover{
+    
+    color:#60C3D2 !important;}
   .nav-linkp:hover{color:#60C3D2 !important;}
 
   .nav-linkr{
+    position:relative;
+    z-index:3;
+    margin-left: 850px;
     color:#dff3f1 !important;
     border-right:solid;
     border-width:1px;
@@ -48,22 +53,24 @@ body,html{
   }
   
   .navbar {
-    position:sticky;
+    margin-top:2%;
+    position:fixed;
     border: none;
     opacity:.9;
     margin-right: 13px;
-    margin-left: 13px;
-
+    margin-left: 2%;
+    background-color:#2d2113;
+    z-index:1
   }
 
   .container-text{   
       margin-top: 1%;
     opacity:1;
-    margin-left:10%;
+    margin-left:9%;
     padding: 0 0 5%;
     font-size:1.6em;
     position: relative;
-    top: -20px;
+    top: 5%;;
     right: 80px;  
   }
 
@@ -141,7 +148,9 @@ background-attachment:fixed;
 
 }
 #portfolio-h1{
-  margin-left: 60%;
+  position:relative;
+  z-index:-1;
+  margin-left: 30%;
   color:#dff3f1;
   font-size:4em;}
 
@@ -337,7 +346,9 @@ border-radius:15px 50px 15px;
 word-spacing: 60px;}
 
 
-.jumbo-about{height:600px;
+.jumbo-about{
+  background-color:#dff3f1;
+  height:600px;
   color:black;
   margin-top:240px;
   position:relative;
@@ -420,7 +431,7 @@ word-spacing: 60px;}
   border-radius: 50%;
   display: inline-block;
   position:fixed;
-  z-index:5;}
+  z-index:2;}
 
   #logo {
     position:relative;
@@ -447,14 +458,7 @@ word-spacing: 60px;}
 
   }
 
-  .circle2{  height: 100px;
-    width: 100px;
-    opacity:1;
-    background-color:#60C3D2;
-    border-radius: 50%;
-    position:absolute;
-    top: 10px;
-    z-index:5;}
+
   
     #logo2 {
       position:relative;
@@ -491,3 +495,7 @@ word-spacing: 60px;}
   .skills-head{color:#6C1404;
     text-align:center;
   text-decoration:underline;}
+
+  .portfolio-page{position:relative;
+    top:1000px;
+  }
