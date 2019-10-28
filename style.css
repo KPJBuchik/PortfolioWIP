@@ -265,8 +265,9 @@ a:hover{color:#60C3D2;}
 right:20px;} */
 
 #about-me {
-  
+  font-size:1.5em;
   position: relative;
+
   top: -25px;
 }
 
