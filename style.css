@@ -289,6 +289,7 @@ border-radius:15px 50px 15px;
     list-style:circle;
     position:relative;
     overflow:hidden;
+    top:-20px;
   
   }
 
@@ -348,7 +349,6 @@ word-spacing: 60px;}
 
 .jumbo-about{
   background-color:#dff3f1;
-  height:600px;
   color:black;
   margin-top:240px;
   position:relative;
@@ -380,8 +380,8 @@ word-spacing: 60px;}
 
 
 .column {
-  float: left;
-  width: 33.33%;
+  float:right;
+  width: 33.3%;
 }
 
 /* Clear floats after the columns */
@@ -502,16 +502,30 @@ word-spacing: 60px;}
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media screen and (max-width:600px) {
 
     body{    overflow-y: auto;;
       overflow-x:auto;}
-    .nav-linkr{margin-left:100px;
+    .nav-linkr{margin-left:-500px;
 
      }
+     .navbar{margin-left:20px;}
 
-
-    .nav-linkp{margin-left:400px;}
+   
 
 
 
@@ -533,3 +547,6 @@ word-spacing: 60px;}
       .jumbo-about{width:520px;}
 
   }
+
+
+  
