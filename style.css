@@ -107,7 +107,7 @@ text-shadow:
 
 
 #background {  
-    height: 300%;
+    height: 320%;
     background-image: url("assets/elephant2.jpg");
  
     /* background-image: url("https://images.unsplash.com/photo-1494200483035-db7bc6aa5739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"); */
@@ -171,7 +171,8 @@ background-attachment:fixed;
    padding-left:10%;
     padding-right:10%;
     height:520px;
-    
+    position:relative;
+    top:40px;
    }
 
    .carousel-control-prev-icon{
@@ -355,6 +356,8 @@ word-spacing: 60px;}
   position:relative;
   top:-20px;
   z-index:0;
+  height:620px;
+  
 }
 
 #about-me-page{
@@ -407,7 +410,7 @@ word-spacing: 60px;}
     border-style:solid;
     border-radius: 45px;
     position:relative;
-    top:20px;
+    top:-40px;
     left:75px;
     color:white;
     background-color:#60C3D2;
@@ -539,6 +542,7 @@ word-spacing: 60px;}
       .d-block{
         margin:0 auto;
         position: relative;
+       
         width: 200px;
         height: 200px;
         border-style:solid;
