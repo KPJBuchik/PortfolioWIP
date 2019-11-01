@@ -5,7 +5,7 @@ body,html{
     height: 100%;
     color:#dff3f1;
     background-color:#2d2113;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x:hidden;
   }
   
