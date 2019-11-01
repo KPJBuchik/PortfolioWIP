@@ -524,7 +524,7 @@ word-spacing: 60px;}
 
     body{    overflow-y: auto;;
       overflow-x:auto;}
-    .nav-linkr{margin-left:-500px;
+    .nav-linkr{position:center;
 
      }
      .navbar{margin-left:20px;}
