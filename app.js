@@ -1,17 +1,23 @@
+
+
 $('#controlR').click(function() {
-    event.preventDefault();
+event.preventDefault()
     $('#content').animate({
-      marginLeft: "-=400px"
+      marginLeft: "-=800px"
     }, "fast");
  });
 
 $('#controlL').click(function() {
-    event.preventDefault();
+event.preventDefault()
     $('#content').animate({
-      marginLeft: "+=400px"
+      marginLeft: "+=800px"
     }, "fast");
 });
 
+$('#controlR').click(function(){
+    event.preventDefault();
+    $(".last").stop()
+    })
 
 
 // jQuery(document).ready(function ($) {
