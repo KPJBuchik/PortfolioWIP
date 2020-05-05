@@ -383,6 +383,8 @@ word-spacing: 60px;}
 #about-me-page{
   font-size:.5em;
   text-align:center;
+  font-family: 'helvetica';
+
 }
 #image-circle{
   margin:0 auto;
@@ -647,7 +649,7 @@ overflow-x:auto;
 
 .card1{
   width: 25em;
-  height:350px;
+  height:480px;
   background:#dff3f1;
   float:left;
   margin-right:10px;
@@ -696,7 +698,7 @@ overflow-x:auto;
 .effect{height:160px;
 width:400px;}
 
-.card1-img{height:160px;
+.card1-img{height:260px;
 width:400px;
 margin:0 auto;
 position: relative;
@@ -707,7 +709,8 @@ overflow: hidden;
 .port-header{text-align:center;
 color:#6C1404;}
 .port-description {color:black;
-text-align:center;}
+text-align:center;
+font-family:'helvetica'}
 
 .fa-link{font-size:2em;
   color:black;
