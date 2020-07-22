@@ -7,7 +7,6 @@ body,html{
     background-color:#2d2113;
     /* overflow-y: hidden; */
     overflow-x:hidden;
-    
   }
   
   body::-webkit-scrollbar {
@@ -762,7 +761,24 @@ margin-left:10px;}
   @media screen and (max-width:600px) {
 
     body{    overflow-y: auto;;
-      overflow-x:auto;}
+      overflow-x:auto;
+  }
+  .what-up{letter-spacing:0px;}
+  #hey{margin-left: 100px;}
+  .about-button{margin-right: 50px;}
+  #about-me-page{   margin-right: 150px;
+    position: relative;
+    left: 25px;
+    margin-left: 16px;}
+    .column{    position: relative;
+      margin-left: 10px;
+      left: 25%;}
+      #wrapper{    width: 900px;
+        margin-left: -45px;
+
+    max-width: none;
+
+      }
     .nav-linkr{position:center;
 
      }
