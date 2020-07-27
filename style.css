@@ -789,10 +789,10 @@ margin-left:10px;}
 
      #about-me-h1 {
       text-align: center;
-      margin-right: 25px;
+      margin-right: 15%;
   }
-
- #image-circle{    margin-left: 25%;}
+.skills-head{margin-right: 25%;}
+ #image-circle{    margin-left: 22%;}
 
     .container-text{
       
@@ -811,6 +811,9 @@ margin-left:10px;}
       }
 
       .jumbo-about{width:520px;}
+      .jumbotron{
+        margin-top: 20px;
+    }
 
   }
 
